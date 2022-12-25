@@ -1,0 +1,47 @@
+#buttonClickOnMe{
+    width: 30%;
+    height: 200px;
+    margin-top: 15%;
+border-radius: 20px;;
+background-color: red;
+font-size: 40px;
+font-weight: bold;
+font-style: italic;
+font-family:"Algerian";
+animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+	/* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+
+
+}
+
+body{
+
+    background-image: url("Snowflakes.gif");
+background-repeat: no-repeat;
+background-size: cover;
+/*new*/
+
+
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #f60303;
+	}
+	25% {
+		background: #14e572;
+	}
+	50% {
+		background: #12e1e1;
+	}
+	75% {
+		background: #5714e9;
+	}
+	100% {
+		background: #e9ed07;
+	}
+}
